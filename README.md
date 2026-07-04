@@ -1,7 +1,7 @@
-# Youtube Summarizer (AI)
+# YouTube Summarizer (AI)
 
-### Criador de resumos do Youtube utilizando API da OpenAI (ChatGPT)
+### Generate YouTube video summaries using the OpenAI API (ChatGPT)
 
-Nesse projeto existe um script que pede uma URL do Youtube e utiliza integração com Inteligência Artificial (gpt-5-nano) para gerar um resumo breve, porém detalhado, do vídeo inserido. 
+This project includes a Python script that prompts the user for a YouTube URL and leverages OpenAI's GPT-5 Nano model to generate a concise yet detailed summary of the video's content.
 
-##### Obs: Só funciona com vídeos com legendas funcionais e nos idiomas definidos no parâmetro "languages" na linha 31.
+> **Note:** This project only works with YouTube videos that have available captions in one of the languages specified in the `languages` parameter (line 31).
